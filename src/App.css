@@ -1,0 +1,35 @@
+.custom-border {
+    border-radius: 50px;
+    background-color: #4A6456;
+    color: white;
+}
+.text-xs{
+ font-size:12px
+}
+ .custom-link:hover {
+     color: black;
+     text-decoration: none;
+ }
+ .text-gray{
+    color:gray;
+ }
+ .img {
+     height: auto;
+     max-width: 100%;
+     border: 0;
+ }
+ .img-height-weigth{
+    height: auto;
+    max-width:220px ;
+
+ }
+ .custom-border-lg{
+    border-radius: 90px;
+        background-color: #9F634E;
+        color: white;
+ }
+ .post-content img{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+ }

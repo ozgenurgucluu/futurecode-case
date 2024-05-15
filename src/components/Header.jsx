@@ -1,15 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from "../icons/MenuIcon";
+import { useState } from "react";
 
 const Header = () => {
+  const [hovered, setHovered] = useState(false);
   return (
     <div class="container d-flex flex-row my-4 gap-5 ">
-      <img
-        src="https://themes.estudiopatagon.com/wordpress/zento/wp-content/uploads/2024/03/logo-zento-1.png"
-        className="col-md-2"
-        alt="Zento"
-      />
+      <Link to={"/"}>
+        <img
+          src="https://themes.estudiopatagon.com/wordpress/zento/wp-content/uploads/2024/03/logo-zento-1.png"
+          className={`img-fluid ${hovered ? "m-1" : ""}`}
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+          alt="Zento"
+        />
+      </Link>
+
       <div className="container d-flex justify-content-center align-items-center  ">
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
           <button
@@ -33,14 +40,15 @@ const Header = () => {
                   Tüm Kategoriler
                 </Link>
               </li>
-              <li className="nav-item ">
-                <Link className="nav-link" to="/contact">
-                  Blog
-                </Link>
-              </li>
+
               <li className="nav-item">
                 <Link className="nav-link" to="/">
                   Home
+                </Link>
+              </li>
+              <li className="nav-item ">
+                <Link className="nav-link" to="/blog">
+                  Blog
                 </Link>
               </li>
               <li className="nav-item">
