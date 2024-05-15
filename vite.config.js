@@ -6,8 +6,3 @@ export default defineConfig({
   plugins: [react()],
 })
 
-module.exports = {
-  plugins: [
-    require('autoprefixer')
-  ]
-}

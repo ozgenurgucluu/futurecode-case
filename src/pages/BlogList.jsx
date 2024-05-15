@@ -251,10 +251,12 @@ const BlogList = () => {
       <div className="row card-deck">
         {blogList.map((blog) => (
           <Blog
+            key={blog.id}
             id={blog.id}
             title={blog.title}
             date={blog.updatedAt}
             thumbnail={blog.thumbnail}
+            summary={blog.summary}
           />
         ))}
       </div>
