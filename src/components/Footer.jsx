@@ -8,7 +8,7 @@ import WhatsAppIcon from "../icons/WhatsAppIcon";
 
 const Footer = () => {
   return (
-    <div className="bg-light py-5">
+    <div className="bg-light py-5 ">
       <div className="container  ">
         <div className="row">
           {" "}

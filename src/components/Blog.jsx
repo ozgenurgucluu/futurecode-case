@@ -7,15 +7,15 @@ const Blog = ({ id, title, date, thumbnail, summary }) => {
     overflow: "hidden",
   };
   return (
-    <div key={id} className=" col-12 col-md-3 my-4">
-      <div className="card">
+    <div key={id} className=" col-12 col-md-3 my-4  ">
+      <Link className="card bg-white link-card text-decoration-none  ">
         <img
           src={thumbnail}
           className="card-img-top "
           alt="Placeholder"
           style={{ height: "200px", objectFit: "cover" }}
         />
-        <div className="card-body">
+        <div className="card-body link-card">
           <h6 className="card-title">{title}</h6>
           <p className="text-xs">{date}</p>
           <p className="card-text fst-italic truncate" style={style}>
@@ -25,7 +25,7 @@ const Blog = ({ id, title, date, thumbnail, summary }) => {
             Devamını oku..
           </Link>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

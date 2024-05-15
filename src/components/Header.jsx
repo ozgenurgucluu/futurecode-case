@@ -6,7 +6,7 @@ import { useState } from "react";
 const Header = () => {
   const [hovered, setHovered] = useState(false);
   return (
-    <div class="container d-flex flex-row my-4 gap-5 ">
+    <div class="container d-flex flex-row my-4 gap-5">
       <Link to={"/"}>
         <img
           src="https://themes.estudiopatagon.com/wordpress/zento/wp-content/uploads/2024/03/logo-zento-1.png"
@@ -20,9 +20,9 @@ const Header = () => {
       <div className="container d-flex justify-content-center align-items-center  ">
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container">
-            <a className="navbar-brand navbar-nav" href="#">
+            <Link className="navbar-brand navbar-nav" href="#">
               Tüm Kategoriler
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
