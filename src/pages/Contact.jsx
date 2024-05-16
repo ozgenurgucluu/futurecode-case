@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="container">
-      <div className="row d-flex py-3">
+      <div className="row py-3">
         {" "}
         <div className="col-md-6 col-12">
           <iframe
@@ -34,11 +34,7 @@ const Contact = () => {
               className="custom-input "
               placeholder="E-mail address"
             />
-            <input
-              type="text"
-              className="message-input"
-              placeholder="Message"
-            />
+            <textarea className="message-input" placeholder="Message" />
             <button type="submit" className="submit ">
               Submit
             </button>

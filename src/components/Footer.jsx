@@ -8,7 +8,7 @@ import WhatsAppIcon from "../icons/WhatsAppIcon";
 
 const Footer = () => {
   return (
-    <div className="bg-light py-5 ">
+    <div className="bg-light py-5 mt-5 ">
       <div className="container  ">
         <div className="row">
           {" "}
@@ -91,7 +91,7 @@ const Footer = () => {
             <div className="fw-bold">Let's Connect</div>
             <div>
               {" "}
-              <div className="input-group mb-1">
+              <div className="input-group mb-1 col-12">
                 <input
                   type="text"
                   className="form-control"

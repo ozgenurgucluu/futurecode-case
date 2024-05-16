@@ -73,7 +73,7 @@ const BlogDetail = () => {
             uz gittik, dağ bayır demeden gittik derken, yol hikayelerimiz
             birikti ve bunları bu blog'da paylaşmaya karar verdik.
           </p>
-          <div className="custom-border-lg d-flex justify-content-center py-1 ">
+          <div className="custom-color-lg border-lg  d-flex justify-content-center py-1 ">
             {" "}
             Bizim Hikayemiz
           </div>
