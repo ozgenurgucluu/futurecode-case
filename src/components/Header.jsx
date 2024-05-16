@@ -66,7 +66,7 @@ const Header = () => {
         </nav>
       </div>
       <button
-        className="btn btn-primary"
+        className="btn btn-outline-primary "
         style={{ height: "42px", width: "155px" }}
         type="button"
       >

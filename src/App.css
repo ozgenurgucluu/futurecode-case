@@ -28,11 +28,7 @@
         background-color: #9F634E;
         color: white;
  }
- .post-content img{
-    max-width: 500px;
-    width: 100%;
-    height: auto;
- }
+ 
  .custom-input{
     border-style: solid;
         border-width: 1px ;
@@ -70,7 +66,6 @@
 
 .navbar-nav .nav-link {
     transition: color 0.3s ease-in-out;
-    /* Renk geçiş animasyonu */
 }
 
 .navbar-nav .nav-link:hover {
@@ -86,6 +81,27 @@ font-weight: bold;
     opacity: 15;
     transform: translateY(4px);
     
-
-    
+}
+.custom-ellipsis {
+display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.justify-center{
+    text-align: justify;
+    ;
+}
+.post-content img {
+            max-width: 680px;
+            width: fit-content;
+            max-height: 610px;      
+}
+.btn:hover{
+      background-color: #6A4ee9;       
+}
+.input-group .btn {
+    height: 100%;
+    border-radius: 0 0.25rem 0.25rem 0;
 }

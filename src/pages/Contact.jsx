@@ -39,7 +39,7 @@ const Contact = () => {
               className="message-input"
               placeholder="Message"
             />
-            <button type="submit" className="submit link-card">
+            <button type="submit" className="submit ">
               Submit
             </button>
           </div>

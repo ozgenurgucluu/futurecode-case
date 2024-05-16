@@ -91,7 +91,7 @@ const Footer = () => {
             <div className="fw-bold">Let's Connect</div>
             <div>
               {" "}
-              <div className="input-group mb-3">
+              <div className="input-group mb-1">
                 <input
                   type="text"
                   className="form-control"
@@ -101,8 +101,7 @@ const Footer = () => {
                 />
                 <div className="input-group-append">
                   <button
-                    className="btn btn-primary theme-color"
-                    style={{ height: "42px" }}
+                    className="btn btn-outline-primary rounded"
                     type="button"
                   >
                     Get Started
