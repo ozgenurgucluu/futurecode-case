@@ -90,9 +90,6 @@
 }
 .post-content img {
   width: 100%;
-  max-width: 680px;
-  height: auto;
-  max-height: 610px;
 }
 .btn:hover {
   background-color: #6a4ee9;

@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
 const Header = () => {
   const [hovered, setHovered] = useState(false);
 
   return (
     <header className="d-flex align-items-center">
-      <div className="container d-flex flex-row gap-5 justify-content-center  ">
+      <div className="container d-flex flex-row  justify-content-center  ">
         <Link to={"/"}>
           <img
             src="https://themes.estudiopatagon.com/wordpress/zento/wp-content/uploads/2024/03/logo-zento-1.png"
@@ -39,7 +40,7 @@ const Header = () => {
                   </Link>
                   <div className="mega-menu">
                     <div className="d-flex gap-3 ">
-                      <div className="col-md-3 d-flex flex-column">
+                      <div className="col-md-3 col-2  d-flex flex-column">
                         <Link className="fw-bold text-decoration-none text-black mb-2">
                           TÜRKİYE
                         </Link>
@@ -52,7 +53,7 @@ const Header = () => {
                         <Link className="mb-1">Muğla</Link>
                       </div>
 
-                      <div className="col-md-3 d-flex flex-column">
+                      <div className="col-md-3 col-2 d-flex flex-column">
                         {" "}
                         <Link
                           to="#"
@@ -67,7 +68,7 @@ const Header = () => {
                         <Link className="mb-1">Tayland</Link>
                         <Link className="mb-1">Endonezya</Link>
                       </div>
-                      <div className="col-md-3  d-flex flex-column">
+                      <div className="col-md-3 col-2 d-flex flex-column">
                         {" "}
                         <Link
                           to="#"
@@ -85,7 +86,7 @@ const Header = () => {
                         <Link className="mb-1">Macaristan</Link>
                         <Link className="mb-1">Finlandiya</Link>
                       </div>
-                      <div className="col-md-3  d-flex flex-column">
+                      <div className="col-md-3 col-2  d-flex flex-column">
                         {" "}
                         <Link
                           to="#"
@@ -146,13 +147,6 @@ const Header = () => {
             </div>
           </nav>
         </div>
-        <button
-          className="btn btn-outline-primary "
-          style={{ height: "42px", width: "155px" }}
-          type="button"
-        >
-          Subscribe
-        </button>
       </div>
     </header>
   );

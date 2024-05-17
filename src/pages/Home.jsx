@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 const Home = () => {
   return (
     <div className="container ">
-      <div className="row mt-4 col-12">
+      <div className="row mt-4 ">
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={50}
@@ -28,7 +28,7 @@ const Home = () => {
               className="d-flex flex-column gap-4 justify-content-center  align-items-center "
               style={{
                 height: "470px",
-                backgroundColor: "red",
+
                 backgroundPosition: "center center",
                 backgroundSize: "cover",
                 backgroundImage:
@@ -46,7 +46,7 @@ const Home = () => {
                   TÜRKİYE
                 </div>
               </div>
-              <div className="text-white fw-bold">
+              <div className="text-white fw-bold text-center">
                 <h2> TİFLİS GEZİ REHBERİ VE TİFLİS GEZİLECEK YERLER</h2>
               </div>
               <div
@@ -83,7 +83,7 @@ const Home = () => {
                   AVRUPA
                 </div>
               </div>
-              <div className="text-white fw-bold">
+              <div className="text-white fw-bold text-center">
                 <h2> KORFU PİLAJLARI & KORFU'NUN EN GÜZEL SAHİLLERİ</h2>
               </div>
               <div
@@ -120,7 +120,7 @@ const Home = () => {
                   AVRUPA
                 </div>
               </div>
-              <div className="text-white fw-bold ">
+              <div className="text-white fw-bold text-center ">
                 <h2> AMSTERDAM KONAKLAMA REHBERİ:UCUZ KONAKLAMA </h2>
               </div>
               <div
@@ -156,7 +156,7 @@ const Home = () => {
                   AVRUPA
                 </div>
               </div>
-              <div className="text-white fw-bold">
+              <div className="text-white fw-bold text-center">
                 <h2 className="">
                   {" "}
                   TOSKANA GEZİ REHBERİ & TOSKANA KONAKLAMA REHBERİ
