@@ -73,7 +73,6 @@ const BlogDetail = () => {
             birikti ve bunları bu blog'da paylaşmaya karar verdik.
           </p>
           <div className="custom-color-lg border-lg  d-flex justify-content-center py-1 ">
-            {" "}
             Bizim Hikayemiz
           </div>
           <img src="	https://yoldabiblog.com/wp-content/uploads/2021/01/Yolda-bi-Blog_Desktop_Presets.jpg" />

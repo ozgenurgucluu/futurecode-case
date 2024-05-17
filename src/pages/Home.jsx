@@ -158,7 +158,6 @@ const Home = () => {
               </div>
               <div className="text-white fw-bold text-center">
                 <h2 className="">
-                  {" "}
                   TOSKANA GEZİ REHBERİ & TOSKANA KONAKLAMA REHBERİ
                 </h2>
               </div>

@@ -11,7 +11,6 @@ const Footer = () => {
     <div className="bg-light py-5 mt-5 ">
       <div className="container  ">
         <div className="row">
-          {" "}
           <div className=" col-12 col-md-3 d-flex gap-5">
             <div className=" d-flex gap-3 flex-column  justify-content-center ">
               <Link
@@ -66,11 +65,21 @@ const Footer = () => {
           <div className="col-12 col-md-3  d-flex  flex-column gap-4 justify-content-center">
             <div className="fw-bold">KURUMSAL</div>
             <div className="gap-2 d-flex flex-column">
-              <div>Hakkımızda </div>
-              <div>Anasayfa</div>
-              <div>İletişim</div>
-              <div>Gizlilik İlkelerimiz</div>
-              <div>Blog</div>
+              <Link className="text-decoration-none text-black" to="#">
+                Hakkımızda{" "}
+              </Link>
+              <Link className="text-decoration-none text-black" to={"/"}>
+                Anasayfa
+              </Link>
+              <Link className="text-decoration-none text-black" to={"/contact"}>
+                İletişim
+              </Link>
+              <Link className="text-decoration-none text-black" to="#">
+                Gizlilik İlkelerimiz
+              </Link>
+              <Link className="text-decoration-none text-black" to={"/blog"}>
+                Blog
+              </Link>
             </div>
           </div>
           <div className="col-12 col-md-6 gap-4 d-flex flex-column ">
@@ -82,19 +91,18 @@ const Footer = () => {
               />
             </div>
             <div>
-              E-posta bültenimize abone olun ve yalnızca{" "}
-              <span className="fw-bold">üyelere özel</span> içeriklere ve{" "}
+              E-posta bültenimize abone olun ve yalnızca
+              <span className="fw-bold">üyelere özel</span> içeriklere ve
               <span className="fw-bold">özel güncellemelere</span> erişim
               sağlayın.
             </div>
             <div className="fw-bold">İletişime Geçelim</div>
             <div>
-              {" "}
               <div className="input-group mb-1 col-12">
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Enter your email"
+                  placeholder="E-mail adresinizi girin"
                   aria-label="Enter your email"
                   aria-describedby="basic-addon2"
                 />
@@ -103,7 +111,7 @@ const Footer = () => {
                     className="btn btn-outline-primary rounded"
                     type="button"
                   >
-                    Get Started
+                    Abone Ol
                   </button>
                 </div>
               </div>
