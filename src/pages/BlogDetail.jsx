@@ -48,14 +48,14 @@ const BlogDetail = () => {
           </div>
           <div className="d-flex flex-column  ">
             <img
-              className="img "
+              className="img post-content "
               src="https://yoldabiblog.com/wp-content/uploads/2024/04/Birgi-gezi-rehberi-1200x801.jpg"
               alt="Birgi gezi rehberi ve Birgi gezilecek yerler"
             />
           </div>
         </div>
         <div
-          className="d-flex flex-column px-5 gap-4 col-12 post-content justify-center justify-content-center post-content"
+          className="d-flex flex-column px-5 gap-4 col-12  justify-center justify-content-center post-content"
           dangerouslySetInnerHTML={{ __html: postDetail.content }}
         ></div>
       </div>

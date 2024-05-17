@@ -19,7 +19,7 @@ const Home = () => {
           pagination={{ clickable: true }}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
-          height={400}
+          height={500}
           effect="cube"
           grabCursor={true}
         >
@@ -27,7 +27,7 @@ const Home = () => {
             <div
               className="d-flex flex-column gap-4 justify-content-center  align-items-center "
               style={{
-                height: "450px",
+                height: "470px",
                 backgroundColor: "red",
                 backgroundPosition: "center center",
                 backgroundSize: "cover",
@@ -64,7 +64,7 @@ const Home = () => {
             <div
               className="d-flex flex-column gap-4 justify-content-center  align-items-center "
               style={{
-                height: "450px",
+                height: "470px",
                 backgroundColor: "red",
                 backgroundPosition: "center center",
                 backgroundSize: "cover",
@@ -101,7 +101,7 @@ const Home = () => {
             <div
               className="d-flex flex-column gap-4 justify-content-center  align-items-center "
               style={{
-                height: "450px",
+                height: "470px",
                 backgroundColor: "red",
                 backgroundPosition: "center center",
                 backgroundSize: "cover",
@@ -137,7 +137,7 @@ const Home = () => {
             <div
               className="d-flex flex-column gap-4 justify-content-center  align-items-center "
               style={{
-                height: "450px",
+                height: "470px",
                 backgroundColor: "red",
                 backgroundPosition: "center center",
                 backgroundSize: "cover",

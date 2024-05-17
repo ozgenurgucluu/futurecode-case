@@ -66,12 +66,12 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-12 col-md-3  d-flex  flex-column gap-4 justify-content-center">
-            <div className="fw-bold">Corporate</div>
+            <div className="fw-bold">KURUMSAL</div>
             <div className="gap-2 d-flex flex-column">
-              <div>About Us</div>
-              <div>Home</div>
-              <div>Contact</div>
-              <div>Privacy Policy</div>
+              <div>Hakkımızda </div>
+              <div>Anasayfa</div>
+              <div>İletişim</div>
+              <div>Gizlilik İlkelerimiz</div>
               <div>Blog</div>
             </div>
           </div>
@@ -84,11 +84,12 @@ const Footer = () => {
               />
             </div>
             <div>
-              Subscribe to our email newsletter and unlock access to{" "}
-              <span className="fw-bold">members-only</span> content and{" "}
-              <span className="fw-bold">exclusive updates.</span>
+              E-posta bültenimize abone olun ve yalnızca{" "}
+              <span className="fw-bold">üyelere özel</span> içeriklere ve{" "}
+              <span className="fw-bold">özel güncellemelere</span> erişim
+              sağlayın.
             </div>
-            <div className="fw-bold">Let's Connect</div>
+            <div className="fw-bold">İletişime Geçelim</div>
             <div>
               {" "}
               <div className="input-group mb-1 col-12">

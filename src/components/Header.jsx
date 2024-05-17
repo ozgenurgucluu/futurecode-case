@@ -20,9 +20,20 @@ const Header = () => {
 
         <div className="container d-flex justify-content-center align-items-center  text-black ">
           <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiar">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarMegaMenu"
+              aria-controls="navbarMegaMenu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
             <div className="collapse navbar-collapse" id="navbarMegaMenu">
               <ul className="navbar-nav">
-                <li className="nav-item ">
+                <li className="nav-item active ">
                   <Link className="nav-link dropdown dropdown-toggle fw-semibold">
                     KATEGORİLER
                   </Link>
@@ -102,7 +113,7 @@ const Header = () => {
                     aria-current="page"
                     to={"/"}
                   >
-                    HOME
+                    ANASAYFA
                   </Link>
                 </li>
                 <li className="nav-item nav-black">
@@ -128,7 +139,7 @@ const Header = () => {
 
                 <li className="nav-item">
                   <Link className="nav-link fw-semibold " to={"/contact"}>
-                    CONTACT
+                    İLETİŞİM
                   </Link>
                 </li>
               </ul>

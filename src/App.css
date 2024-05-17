@@ -89,8 +89,9 @@
   text-align: justify;
 }
 .post-content img {
+  width: 100%;
   max-width: 680px;
-  width: fit-content;
+  height: auto;
   max-height: 610px;
 }
 .btn:hover {
@@ -203,4 +204,10 @@ body {
 
 .mega-menu a:hover {
   color: #007bff; /* veya istediğiniz bir renk */
+}
+.slider-content {
+  height: "460px";
+  background-color: "red";
+  background-position: "center center";
+  background-size: "cover";
 }
