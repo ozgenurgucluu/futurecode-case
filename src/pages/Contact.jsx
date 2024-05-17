@@ -34,8 +34,8 @@ const Contact = () => {
               placeholder="E-mail address"
             />
             <textarea className="message-input" placeholder="Message" />
-            <button type="submit" className="submit ">
-              Submit
+            <button type="submit" className="submit text-l ">
+              Gönder
             </button>
           </div>
         </div>
