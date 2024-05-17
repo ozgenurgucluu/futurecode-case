@@ -12,39 +12,37 @@ const Footer = () => {
       <div className="container  ">
         <div className="row">
           {" "}
-          <div className=" col-12 col-md-4 d-flex gap-5">
+          <div className=" col-12 col-md-3 d-flex gap-5">
             <div className=" d-flex gap-3 flex-column  justify-content-center ">
               <Link
                 to="https://twitter.com"
-                className="text-dark align-items-center text-decoration-none d-flex"
+                className="text-dark align-items-center text-decoration-none d-flex fw-bold mx-1"
               >
-                <span>
-                  Follow on <span className="fw-bold mx-1">Twitter</span>{" "}
-                </span>
+                Twitter
               </Link>
               <Link
                 to="https://facebook.com"
-                className="text-dark align-items-center text-decoration-none "
+                className="text-dark align-items-center text-decoration-none fw-bold mx-1 "
               >
-                Follow on <span className="fw-bold mx-1">Facebook</span>
+                Facebook
               </Link>
               <Link
                 to="https://instagram.com"
-                className="text-dark align-items-center text-decoration-none "
+                className="text-dark align-items-center text-decoration-none fw-bold mx-1"
               >
-                Follow on <span className="fw-bold mx-1">Instagram</span>
+                Instagram
               </Link>
               <Link
                 to="https://github.com"
-                className="text-dark align-items-center text-decoration-none "
+                className="text-dark align-items-center text-decoration-none fw-bold mx-1"
               >
-                Follow on <span className="fw-bold mx-1">Github</span>
+                Github
               </Link>
               <Link
                 to="https://wa.me"
-                className="text-dark align-items-center text-decoration-none "
+                className="text-dark align-items-center text-decoration-none fw-bold mx-1 "
               >
-                Follow on <span className="fw-bold mx-1">WhatsApp</span>
+                WhatsApp
               </Link>
             </div>
             <div className=" d-flex flex-column gap-3 justify-content-center  ">
@@ -75,7 +73,7 @@ const Footer = () => {
               <div>Blog</div>
             </div>
           </div>
-          <div className="col-12 col-md-5 gap-4 d-flex flex-column ">
+          <div className="col-12 col-md-6 gap-4 d-flex flex-column ">
             <div className="row">
               <img
                 src="https://themes.estudiopatagon.com/wordpress/zento/wp-content/uploads/2024/03/logo-zento-1.png"
