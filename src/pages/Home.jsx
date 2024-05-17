@@ -146,13 +146,13 @@ const Home = () => {
               }}
             >
               <div className="d-flex  gap-4  ">
-                <div className="custom-border-green fw-bold text-xs px-3 py-2">
+                <div className="custom-border-green fw-bold text-xs px-3 text-white py-2">
                   TOSKANA
                 </div>
-                <div className="custom-border-green  fw-bold text-xs px-3 py-2 ">
+                <div className="custom-border-green  fw-bold text-xs px-3 text-white py-2 ">
                   İTALYA
                 </div>
-                <div className="custom-border-green fw-bold text-xs px-3 py-2">
+                <div className="custom-border-green fw-bold text-xs px-3 text-white py-2">
                   AVRUPA
                 </div>
               </div>

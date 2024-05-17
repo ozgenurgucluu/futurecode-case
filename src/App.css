@@ -141,6 +141,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
   padding: 25px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 5px rgba(22, 22, 22, 0.15);
+  z-index: 40;
 }
 .xs-menu {
   border-radius: 3px;
@@ -154,6 +157,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
   padding: 25px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 5px rgba(22, 22, 22, 0.15);
+  z-index: 40;
 }
 
 .nav-item:hover .mega-menu {
@@ -175,32 +181,32 @@ body {
 }
 
 .xs-menu .col-12 span:hover {
-  color: #007bff; /* veya istediğiniz bir renk */
+  color: #007bff;
 }
 
 .xs-menu .col-12 a {
-  color: inherit; /* Span'ın rengini miras alır */
+  color: inherit;
   text-decoration: none;
 }
 
 .xs-menu .col-12 a:hover {
-  color: #007bff; /* veya istediğiniz bir renk */
+  color: #007bff;
 }
 .mega-menu .col-12 span {
   transition: color 0.3s ease;
 }
 
 .mega-menu span:hover {
-  color: #007bff; /* veya istediğiniz bir renk */
+  color: #007bff;
 }
 
 .mega-menu a {
-  color: inherit; /* Span'ın rengini miras alır */
+  color: inherit;
   text-decoration: none;
 }
 
 .mega-menu a:hover {
-  color: #007bff; /* veya istediğiniz bir renk */
+  color: #007bff;
 }
 .slider-content {
   height: "460px";
@@ -211,4 +217,31 @@ body {
 
 .text-l {
   font-size: large;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.mobile-menu {
+  width: 70vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -2000px;
+  z-index: 20;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 10px;
+  box-sizing: box-border;
+  border-left: 1px solid #eee;
+  transition: all 500ms ease;
+}
+
+.menu-open {
+  right: 0;
 }
